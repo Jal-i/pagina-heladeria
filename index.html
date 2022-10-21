@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Gelato</title>
+</head>
+<body>
+    <main class="main">
+        <section class="main__hero">
+            <nav class="main__nav container"> 
+                <a class="main__hamburguer" href="#"><i class="fa-solid fa-bars"></i></a>
+
+                <img src="/img/logologo2.png" alt="logo" class="main__logo"> 
+
+                <ul class="main__links">
+                    <li class="main__list"><a href="#1" class="main__link">Novedades</a></li>
+                    <li class="main__list"><a href="#2" class="main__link">Nosotros</a></li>
+                    <li class="main__list"><a href="#3" class="main__link">Galeria</a></li>
+                    <li class="main__list"><a href="#4" class="main__link">Contacto</a></li>
+                </ul>
+                
+            </nav>
+        </section>
+
+        <div class="main__cards" id="1">
+            <figure class="cards__new">
+                <img src="/img/paletas-helados.jpg" alt="">
+                <figcaption>
+                    <h3>Vení a disfrutar de nuestros nuevos sabores que son simplemente <br> I-RRE-SIS-TI-BLES.</h3>
+                </figcaption>
+            </figure>
+            <figure class="cards__new">
+                <img src="/img/sabores-aptos.jpg" alt="">
+                <figcaption>
+                    <h3>Nueva línea de productos aptos para personas con alergias e intolerancia a ciertos alimentos.</h3>
+                </figcaption>
+            </figure>
+            <figure class="cards__new">
+                <img src="/img/sabores-frutales.jpg" alt="">
+                <figcaption>
+                    <h3>Lanzamos las nuevas paletas rellenas con los mas ricos sabores y cubiertas por tres capas de chocolate. <br> NO DEJES DE PROBARLAS!!!</h3>
+                </figcaption>
+            </figure>
+            <a href="#" class="main__cta"> Ver más<i class="fa-solid fa-arrow-right" id="main__arrow"></i></a>
+        </div>
+        
+        
+
+
+        <section class="main__about container" id="2">
+            <div class="main__content">
+                <h2 class="main__title"> Sobre nosotros </h2>
+                <p class="main__about"> Un negocio familiar donde nos dedicamos a la elaboración artesanal y a la venta de productos de heladería. La variedad y calidad de nuestros productos han sido factores inalterables a través de los años. Asimismo, la atención personalizada que ofrecemos, son elementos relevantes para todos nuestros clientes.</p>
+            </div>
+        </section>
+
+        <div class="main__bg"></div>
+
+        <section class="main__gallery" id="3">
+        <h2 class="main__title"> Galeria de imagenes</h2>
+        <!-- <span class="linea"></span> -->
+            <a href="#" class="gallery"><img src="img/img-1.jpg" alt=""></a>
+            <a href="#" class="gallery"><img src="img/img-2.jpg" alt=""></a>
+            <a href="#" class="gallery"><img src="img/img-3.jpg" alt=""></a>
+            <a href="#" class="gallery"><img src="img/img-4.jpg" alt=""></a>
+            <a href="#" class="gallery"><img src="img/img-5.jpg" alt=""></a>
+            <a href="#" class="gallery"><img src="img/img-6.jpg" alt=""></a>
+        </section>
+
+        <section class="main__contact container" id="4">
+            <form class="contact__form">
+                <div class="contact__img"></div>
+                <div class="form-item">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-item">
+                    <label for="email">E-mail </label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <button type="submit">Suscribirse!</button>
+            </form>
+        </section>
+
+        <footer class="main__social container">
+            <ul class="social__list">
+                <li class="social"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="social"><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+                <li class="social"><a href=""><i class="fa-solid fa-envelope"></i></a></li>
+            </ul>
+            <p class="social__parr"> &copy Gelato </p>
+        </footer>
+
+</main>   
+</body>
+</html>
