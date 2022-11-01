@@ -12,6 +12,10 @@
 }
 body {
     font-family: 'Open Sans', sans-serif;
+    background-image: url(/img/fondo03.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 main {
@@ -22,11 +26,8 @@ main {
     align-items: center;
 }
 .main__form {
-    width: 70%;
+    width: 90%;
     height: 340px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 20px; 
     margin-top: 15px; 
     margin-left: 80px;
@@ -86,16 +87,19 @@ p {
 .link:hover {
     color: var(--turquoise);
 }
-
+.main__title {
+    font-family:'Bungee', cursive;
+    font-size: 25px !important;
+    margin-left: 10px;
+    margin-right: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: var(--turquoise);
+}
 
 
 @media screen and (min-width:768px) {
-    main{
-        background-image: url(/img/fondo03.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
+    
     .main__form {
         margin: auto;
         width: 500px;
@@ -103,4 +107,4 @@ p {
         margin-top: 20px;
         border-radius: 15px;
     }
-}
+} 
