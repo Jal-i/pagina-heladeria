@@ -20,7 +20,7 @@ main {
     display: grid;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, max-content);
     grid-template-areas: 
@@ -29,6 +29,7 @@ main {
     "about"
     "logo"
     "subscribe"
+    "registro"
     "gallery"
     "contact"
     "footer"
@@ -37,7 +38,7 @@ main {
 
 .container {
     width: 100%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     overflow: hidden;
     padding: 60px 0;
 }
@@ -167,6 +168,9 @@ main {
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
 } 
 
 .main__title {
@@ -203,12 +207,12 @@ main {
 
 /* ---------------------------------- Registro ------------------------- */
 .formulario {
+    grid-area: registro;
     width: 100%;
     height: 450px;
-    background-image: url(/img/fondo03.jpg);
+    background-image: url(/img/fondo04.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 .main__form {
     width: 70%;
@@ -221,13 +225,15 @@ main {
 input[type="text"],
 input[type="password"] {
     width: 70%;
+    background-color: var(--light-gray);
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 15px;
-    text-transform: uppercase;
     margin-top: 20px;
     padding-left: 15px;
-    border: none;
+    outline: none;
+    border-radius: 5px;
+    border: 0;
 }
 .main__input {
     margin-bottom: 15px;
@@ -283,6 +289,7 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding-bottom: 50px;
 }
 
 .form-item {
