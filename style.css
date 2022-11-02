@@ -40,7 +40,7 @@ main {
     width: 100%;
     margin: 0 auto; 
     overflow: hidden;
-    /* padding: 60px 0; */
+    padding: 20px; 
 }
 
 .main__hero {
@@ -64,6 +64,7 @@ main {
     justify-content: space-around;
     align-items: center;
     margin-left: 40px;
+    margin-top: 40px;
 }
 
 .main__hamburguer:hover {
@@ -78,7 +79,8 @@ main {
     width: 200px;
     margin: 0 auto;
     border-radius: 20px;
-    margin-right: 20px;
+    margin-right: 40px;  
+    margin-top: 40px;
 }
 
 /* ------------------------ cards new -------------------- */
@@ -176,7 +178,7 @@ main {
 .main__title {
     font-family:'Bungee', cursive;
     font-size: 25px !important;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 20px;
     text-transform: uppercase;
     letter-spacing: 4px;
