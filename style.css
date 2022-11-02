@@ -213,6 +213,7 @@ main {
     width: 100%;
     height: 500px;
     padding-top: 15px;
+    padding-left: 15px;
     padding-bottom: 20px;
     background-image: url(/img/fondo04.jpg);
     background-size: cover;
@@ -290,6 +291,8 @@ p {
     width: 100%;
     height: 390px;
     padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
     background-image: url(/img/fondo01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
